@@ -1,0 +1,194 @@
+/* color pallete generator: http://www.cssdrive.com/imagepalette/index.php*/
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    width: 100%;
+    color: white;
+    background-color: #c2d5af;
+    background-image: url("../afbeeldingen/honden_en_paarden.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom -130px left;
+    /* background-blend-mode: lighten; */
+
+    text-align: center;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    margin: 0;
+}
+
+
+#navi {
+    background-color: #e2eefc51;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  #navi li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 4px;
+    text-decoration: none;
+  }
+
+  #navi li a{
+    text-decoration: none;
+  }
+
+  
+  li a:link, a:visited {
+    display: block;
+    padding: 8px 16px;
+    /* background-color: #8fb080; */
+    color: black;
+  }
+
+  li a:hover, a:active {
+    background-color: #E2EEFC;
+    color: black;
+    outline: 1px solid #234265;
+  }
+
+
+
+.container {
+    position: relative;
+    display: block;
+    height: 2800px;
+}
+
+    #navbar {
+        list-style-type: none;
+        margin-left: 4px;
+        padding: 0;
+        width: 180px;
+
+        position: -webkit-sticky;
+        position: sticky;
+        top: 85px;
+    } 
+
+    .container2 {
+        position: absolute;
+        left: 220px;
+        top: 0;
+        width: 100%;
+    } 
+
+        div.beschrijving {
+            font-size: 20px;
+            display: block;
+            width: 300px;
+            position: absolute;
+            margin: 10px;
+        }
+
+        /* article{
+            width: 400px;
+            margin: 10px;
+
+            position: relative;
+            top: 180px;
+            text-align: justify;
+        } */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5.5%;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #667292;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+footer {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    text-align: center;
+
+    background-color: #8fb080;
+    bottom: 0%;
+}
+
+textarea {
+  width: 553px;
+  height:  80px;
+  background-color: #fff;
+  resize: none;
+  position: relative;
+}
+
+button {
+  width: 100px;
+  height:  30px;
+  background-color: #282828;
+  border: none;
+  color: #fff;
+  font-family: arial;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.comment-box {
+  width: 553px;
+  padding: 20px;
+  margin-bottom: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.comment-box p {
+  font-family: arial;
+  font-size: 14px;
+  line-height: 16px;
+  color: #282828;
+  font-weight: 100;
+}
+
+.delete-form {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.delete-form button {
+  width: 40px;
+  height: 20px;
+  color: #282828;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.delete-form button:hover {
+  opacity: 1;
+}
+
